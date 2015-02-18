@@ -190,7 +190,7 @@ public class EVisitorBookActivity extends Activity {
                 			        sms.sendTextMessage(dst, null, boodskap, null, null);
                             		
                 			        try {
-                			        	URL send = new URL("http://lynnwoodpark.co.za/house2.php?house="
+                			        	URL send = new URL(""
                            				   + dst + x.charAt(0) + x.substring(x.length()-3,x.length())
                  			        	   + "+" + tstamp
                            				   + "+" + rLength);
